@@ -34,6 +34,10 @@ to the edge depending on the time it takes to travel that road at that particula
 4. Use Dijkstra's algorithm to find the shortest path from the home town at time 0 to the destination town.
 5. Choose the shortest path which wins tiebreakers.
 
+You can see the graph constructed for the example problem in the specification document below:
+
+![Example graph](https://github.com/Casumo/game-of-codes-2017/raw/master/example_graph.png)
+
 Note: there is a better, more efficient way to use Dijkstra to also find the path which wins tiebreakers if you encode all the necessary information
 into the edge weights.
 
